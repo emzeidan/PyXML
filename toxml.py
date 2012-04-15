@@ -23,7 +23,7 @@
 
 import os, sys, re
 
-def makefile(filename, docid=str(sys.argv[2]), tsr="s", ext=".xml"):
+def makefile(filename, docid=str(sys.argv[2]), tsr=str(sys.argv[3]), ext=".xml"):
     inputfilename = filename + ".txt"
     inputfile = open(inputfilename, "r+")
     
