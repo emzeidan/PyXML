@@ -66,3 +66,4 @@ def makefile(filename, docid=str(sys.argv[2]), tsr="s", ext=".xml"):
 
 if __name__ == "__main__":
     makefile(sys.argv[1])
+    tsr = sys.argv[3]
